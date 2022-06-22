@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --orange: #F2C14E;
+    --winning-blocks: #2d414b;
+}
+body{
+    color: #F2C14E;
+    font-family: 'Finger paint', cursive;
+    background-color: #37505C;
+}
+h1{
+    font-size: 54px;
+    text-transform: uppercase;
+}
+
+#container{
+    
+    padding: 40px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+
+#btn_container{
+    display: flex;
+    flex-direction: row;   /*how we want the elements to align*/
+    flex-wrap: wrap;     /* if too many elements, then na9ez ster*/
+    justify-content: space-between; /*options for how the boxes organize*/
+    align-items: center;  /*how the items aligned inside the blue box*/
+
+}
+
+#gameboard{
+    width: 450px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+.cell{
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F2C14E;
+    font-size: 120px;
+    border-right: 2px solid;
+    border-bottom: 2px solid;
+    cursor: pointer;
+}
+.cell:nth-child(3n){
+    border-right:none;
+}
+.cell:nth-child(6)~.cell{
+    border-bottom:none;
+}
+button{
+    padding: 10px  20px;
+    margin-left: 11px;
+    margin-right: 11px;
+    border-radius: 10px;
+    background-color: #F2C14E;
+    color: #333;
+    border-color: #F2C14E;
+    font-size: 18px;
+    transition: 200ms transform;
+    font-weight: 600;
+}
+button:hover{
+    cursor: pointer;
+    transform: translate(-2px);
+}
