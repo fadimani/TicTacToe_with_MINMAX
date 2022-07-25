@@ -18,7 +18,7 @@ const winCombos =[
 const cells = document.getElementsByClassName('cell');
 
 function startGame() {
-	document.getElementById("playerText").innerHTML = "Tic Tac Toe";
+	document.getElementById("playerText").innerHTML = "bilal's crazy Tic Tac Toe";
 	origBoard = [0,1,2,3,4,5,6,7,8];
     gameWon2 = null;
     preview();
