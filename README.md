@@ -1,2 +1,2 @@
 # TicTacToe
-![image](https://user-images.githubusercontent.com/97170401/229323988-53188602-a80f-4699-bae3-278ab3804bbd.png)
+![image](https://user-images.githubusercontent.com/97170401/233810751-24f0fe5d-fa38-4521-bfa0-c336ecaddae2.png)
